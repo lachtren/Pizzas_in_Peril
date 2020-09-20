@@ -2,7 +2,7 @@ import map_data
 import pygame
 
 pygame.init()
-delivery_sound = pygame.mixer.Sound("C:/Users/Trenton/.spyder-py3/pizzas in peril/data/audio/doorbell.wav")
+delivery_sound = pygame.mixer.Sound("data/audio/doorbell.wav")
 deliver_image = pygame.image.load("data/images/pizza_delivered.png")
 gameIcon = pygame.image.load('data/images/game_icon.png')
 level_select_bg = pygame.image.load('data/images/level_select.png')
